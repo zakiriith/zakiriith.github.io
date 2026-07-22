@@ -1,1 +1,0 @@
-# https://yknegi.github.io/
