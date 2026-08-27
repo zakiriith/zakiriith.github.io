@@ -429,6 +429,10 @@ h6,.page-content h6 a {font-weight: normal; font-style: normal; font-family: 'So
 
 #decorative2 {z-index:100 !important}
 
+#divFooterQuote {font-size:11px;color:#999;font-style:italic;text-align:center;padding:10px 0px 0px 0px;}
+
+#divPageNumber {font-size:11px;color:#999;text-align:center;padding:4px 0px 0px 0px;}
+
 @media (max-width: 979px) {
      #divLogo {margin-bottom:10px;}
 

@@ -191,6 +191,7 @@
             </div>
 
             <!--Edit Footer here-->
+			<p id="divFooterQuote">&ldquo;If today were the last day of my life, would I want to do what I am about to do today?&rdquo; &mdash; Steve Jobs</p>
 			<div id="footerInnerSeparator"></div>
         </div>
     </div>

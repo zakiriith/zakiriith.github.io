@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 <head>
     <meta charset="utf-8">
@@ -16,7 +16,7 @@
     <![endif]-->
 
     <!-- Icons -->
-    <link href="scripts/icons/general/stylesheets/general_foundicons.css" media="screen" rel="stylesheet" type="text/css" />  
+    <link href="scripts/icons/general/stylesheets/general_foundicons.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="scripts/icons/social/stylesheets/social_foundicons.css" media="screen" rel="stylesheet" type="text/css" />
     <!--[if lt IE 8]>
         <link href="scripts/icons/general/stylesheets/general_foundicons_ie7.css" media="screen" rel="stylesheet" type="text/css" />
@@ -52,7 +52,7 @@
       <div class="row-fluid">
         <div class="span12">
           <!--Edit Site Name and Slogan here-->
-          <div id="divLogo"> 
+          <div id="divLogo">
             <a href="index.html" id="divSiteTitle">Mohd Jakir Qureshi</a><br />
             <a href="index.html" id="divTagLine">Lead Engineer, Researcher and writer</a><br />
             <a href="index.html" id="divTagLine">Indian Institute of Technology, Hyderabad</a>
@@ -70,10 +70,10 @@
                   <li></li>
                   <li><a href="research.html">Experience</a></li>
                   <li><a href="publication.html">Certification</a></li>
-								  <li></li>  								
+								  <li></li>
 								  <!--<li><a href="docs/CV_LBNL_2022_05_11.pdf">CV</a></li>
 								  <li></li>-->
-				  <li></li> 					
+				  <li></li>
                   <li><a href="docs/CV_LBNL_2022_05_11.pdf">CV</a></li>
                   <li></li>
                 </ul>
@@ -90,24 +90,26 @@
     </div>
     <div class="contentArea">
 
+
+
         <div class="divPanel notop page-content">
 
 
 
             <div class="row-fluid">
-			
+
 			<!--Edit Sidebar Content here-->
-                <div class="span3">                    
-                 
- <img src="images/P5-head.jpg" class="img-rounded pull-right" alt="" />                
-                 
-                 
-                <div class="row-fluid">		
-		         <div class="span6"></div>          
+                <div class="span3">
+
+ <img src="images/P5-head.jpg" class="img-rounded pull-right" alt="" />
+
+
+                <div class="row-fluid">
+		         <div class="span6"></div>
                  <div class="span6"></div>
-			 
+
             	</div>
-                 
+
                       <p><strong>Email:</strong><br>
                           zakir.designer0708@gmail.com</p>
                       <p><strong>Address:</strong><br>
@@ -118,67 +120,47 @@
                           +91-98-11 802011<br>
                           +91-20-XXXX XXXX</p>
                  <p>Google Scholar:<br>
-                   [<a href="https://scholar.google.co.in/citations?user=MX7-iX4AAAAJ&hl=en">Here</a>]</p>                   
-              </div>	 
-		    			
-				<!--/End Sidebar Content -->        				
-					                 
+                   [<a href="https://scholar.google.co.in/citations?user=MX7-iX4AAAAJ&hl=en">Here</a>]</p>
+              </div>
+
+				<!--/End Sidebar Content -->
+
             	<!--Edit Main Content Area here-->
                 <div class="span9" id="divMain">
+                <div align="justify">
+                    <p>I'm currently the lead or one core developer of the following software packages.</p>
 
-
-I'm currently the lead or one core developer of the following software packages. 					
-
-<h4><a href="https://github.com/liuyangzhuan/ButterflyPACK">ButterflyPACK</a></h4>                    
+<h4><strong><a href="https://github.com/liuyangzhuan/ButterflyPACK">ButterflyPACK</a></strong></h4>
 <ul>
 <li>ButterflyPACK is a mathematical software for rapidly solving large-scale dense linear systems that exhibit off-diagonal rank-deficiency. These systems arise frequently from boundary element methods, or factorization phases in finite-difference/finite-element methods. ButterflyPACK relies on low-rank or butterfly formats under Hierarchical matrix, HODLR or other hierarchically nested frameworks to compress, factor and solve the linear system in quasi-linear time. The computationally most intensive phase, factorization, is accelerated via randomized linear algebras. The butterfly format, originally inspired by the butterfly data flow in fast Fourier Transform, is a linear algebra tool well-suited for compressing matrices arising from high-frequency wave equations or highly oscillatory integral operators.</li>
-</ul>		
-					
-					
+</ul>
 
-<h4><a href="https://github.com/pghysels/STRUMPACK">STRUMPACK</a></h4>                   
+<h4><strong><a href="https://github.com/pghysels/STRUMPACK">STRUMPACK</a></strong></h4>
 <ul>
 <li>STRUMPACK -- STRUctured Matrix PACKage - provides linear solvers for sparse matrices and for dense rank-structured matrices, i.e., matrices that exhibit some kind of low-rank property. It provides a distributed memory fully algebraic sparse solver and preconditioner. The preconditioner is mostly aimed at large sparse linear systems which result from the discretization of a partial differential equation, but is not limited to any particular type of problem. STRUMPACK has integrated most functionalities of ButterflyPACK. STRUMPACK also provides preconditioned GMRES and BiCGStab iterative solvers.</li>
-</ul>	
-					
-					
+</ul>
 
-<h4><a href="https://github.com/xiaoyeli/superlu_dist">SuperLU_DIST</a></h4>                   
+<h4><strong><a href="https://github.com/xiaoyeli/superlu_dist">SuperLU_DIST</a></strong></h4>
 <ul>
 <li>SuperLU_DIST contains a set of subroutines to solve a sparse linear system A*X=B. It uses Gaussian elimination with static pivoting (GESP). Static pivoting is a technique that combines the numerical stability of partial pivoting with the scalability of Cholesky (no pivoting), to run accurately and efficiently on large numbers of processors.
 
 SuperLU_DIST is a parallel extension to the serial SuperLU library. It is targeted for the distributed memory parallel machines. SuperLU_DIST is implemented in ANSI C, and MPI for communications. Currently, the LU factorization and triangular solution routines, which are the most time-consuming part of the solution process, are parallelized. The other routines, such as static pivoting and column preordering for sparsity are performed sequentially.</li>
-</ul>						
-					
-		
-<h4><a href="https://github.com/gptune/GPTune">GPTune</a></h4>                    
+</ul>
+
+<h4><strong><a href="https://github.com/gptune/GPTune">GPTune</a></strong></h4>
 <ul>
-<li>GPTune is an autotuning framework that relies on multitask and transfer learnings to help solve the underlying black-box optimization problem. The package supports distributed and shared parallelism at both the application and tuner levels. Under the examples folder, there are illustrative examples on how to use GPTune to tune the runtime and memory of application codes such as SuperLU_DIST and ScaLAPACK. </li>
-</ul>						
-				
-       
-
-	
+<li>GPTune is an autotuning framework that relies on multitask and transfer learnings to help solve the underlying black-box optimization problem. The package supports distributed and shared parallelism at both the application and tuner levels. Under the examples folder, there are illustrative examples on how to use GPTune to tune the runtime and memory of application codes such as SuperLU_DIST and ScaLAPACK.</li>
 </ul>
+                </div>
+		      </div>
+
+				<!--/End Main Content Area here-->
 
 
-
-
-
-                     
-</ul>
-                    
-     
-
-					
-		      </div>	                             
-                    					                  
-				<!--/End Main Content Area here-->	                
-					
-							
             </div>
-            
+
 			<!--Edit Footer here-->
+            <p id="divFooterQuote">&ldquo;If today were the last day of my life, would I want to do what I am about to do today?&rdquo; &mdash; Steve Jobs</p>
             <div id="footerInnerSeparator"></div>
         </div>
     </div>
@@ -196,7 +178,7 @@ SuperLU_DIST is a parallel extension to the serial SuperLU library. It is target
 
 <br /><br /><br />
 
-<script src="scripts/jquery.min.js" type="text/javascript"></script> 
+<script src="scripts/jquery.min.js" type="text/javascript"></script>
 <script src="scripts/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 <script src="scripts/default.js" type="text/javascript"></script>
 
